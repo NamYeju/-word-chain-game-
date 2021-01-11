@@ -1,0 +1,30 @@
+﻿빌드 시작: 2020-12-06 오후 7:12:26
+     1>2 노드의 "c:\Users\남예주\documents\visual studio 2010\Projects\net\net\net.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "Debug\net.unsuccessfulbuild"에 연결(touching)하고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt testfw.c
+         testfw.c
+     1>c:\users\남예주\documents\visual studio 2010\projects\net\net\testfw.c(10): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>c:\users\남예주\documents\visual studio 2010\projects\net\net\testfw.c(10): warning C4700: 초기화되지 않은 'p' 지역 변수를 사용했습니다.
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\net.exe.embed.manifest.res" Debug\net_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\남예주\documents\visual studio 2010\Projects\net\Debug\net.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\net.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\남예주\documents\visual studio 2010\Projects\net\Debug\net.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\남예주\documents\visual studio 2010\Projects\net\Debug\net.lib" /MACHINE:X86 Debug\net.exe.embed.manifest.res
+         Debug\testfw.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\net.exe.embed.manifest" /manifest Debug\net.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\net.exe.embed.manifest.res" Debug\net_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\남예주\documents\visual studio 2010\Projects\net\Debug\net.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\net.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\남예주\documents\visual studio 2010\Projects\net\Debug\net.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\남예주\documents\visual studio 2010\Projects\net\Debug\net.lib" /MACHINE:X86 Debug\net.exe.embed.manifest.res
+         Debug\testfw.obj
+         net.vcxproj -> c:\users\남예주\documents\visual studio 2010\Projects\net\Debug\net.exe
+       FinalizeBuildStatus:
+         "Debug\net.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\net.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"c:\Users\남예주\documents\visual studio 2010\Projects\net\net\net.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:02.64
